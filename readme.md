@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Contador con JavaScript - Haroldo Júnior</title>
@@ -13,5 +12,6 @@
     <button class="btn btn-dark" id="myButton">Presionar</button>
 
     <script defer src="ejercicio1.js"></script>
+
   </body>
 </html>
