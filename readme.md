@@ -8,6 +8,8 @@ Luego, si se mantiene el botón presionado por 2 segundos, el contador pasa a in
 
 Por fin, al mantener el botón presionado por 5 segundos o más, el contador se detiene y asume el valor 1 directamente.
 
+Para ejecutar, después de descargar, bastar abrir el archivo ejercicio1.html.
+
 Diagrama de flujo
 
 <img src="./contador.png">
