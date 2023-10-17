@@ -1,8 +1,6 @@
 Contador en JavaScript Vanilla
 
-Código y comentarios en español.
-
-El código se podía mejorar, implementando ReactJS para manejar mejor los estados.
+Código y comentarios en inglés para mejores prácticas, pese a que el código se podría mejorar, implementando ReactJS para manejar mejor los estados.
 
 La temática estaba en apretar un botón por 1 segundo o menos y que el contador se incrementara de 1 en 1 hasta llegar a 15, luego se regresa al valor 1.
 
@@ -16,55 +14,8 @@ Diagrama de flujo
 
 Diagrama de Despliegue
 
-+-----------------------+ +----------------------+
-| Navegador Web | | Máquina Local |
-| | | |
-| +----------------+ | | +--------------+ |
-| | Interfaz de | |Evento | | Script | |
-| | Usuario |---------------->| del | |
-| | | |Evento | | Comunicación | |
-| | +--------+ |<----------------| | |
-| | | Botón | | | | +--------------+ |
-| | | Web | | | | |
-| | +--------+ | | | |
-| +----------------+ | +----------------------+
-+-----------------------+
+<img src="./despliegue.png">
 
 Diagrama de Estados
 
-+--------------------------------------------------+
-| |
-| +-------------------+ |
-| | | |
-| | Botón Presionado | |
-| | | |
-| +-------------------+ |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| +-----v-----+ +--v--+ |
-| |Incremento 1| |Hold| |
-| |1 unidad | |2s+ | |
-| | | | | |
-| +-----------+ +----+ |
-| | |
-| | |
-| | |
-| | |
-| | |
-| +-----v-----+ |
-| |Incremento 3| |
-| |3 unidades | |
-| | | |
-| +-----------+ |
-| |
-| |
-| |
-| +----------------+ |
-| |Valor Fijo en 1 | |
-| | | |
-| +----------------+ |
-| |
-+--------------------------------------------+
+<img src="./estados.png">
